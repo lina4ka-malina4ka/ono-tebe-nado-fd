@@ -44,7 +44,7 @@
 }
 
 .header__link {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -54,7 +54,7 @@
 }
 
 .header__link_active {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
   text-decoration: none;
@@ -62,7 +62,7 @@
 
 /* адрес */
 .address-link {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
@@ -74,7 +74,7 @@
 }
 
 .address-item {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
@@ -110,7 +110,7 @@
   left: 0;
   right: 0;
   padding: 165px 50px 106px;
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
@@ -152,7 +152,7 @@
   align-items: center;
 }
 .description__text {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 22px;
   line-height: 127%;
@@ -167,7 +167,7 @@
   border: 1px solid #fff;
   width: 256px;
   height: 51px;
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
@@ -185,7 +185,7 @@
 }
 
 .lots__heading {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -244,7 +244,7 @@
 }
 
 .card__title {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -256,7 +256,7 @@
 
 .card__text {
   align-self: end;
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -265,7 +265,7 @@
 
 /* нижняя ссылка */
 .lots__look-more-link {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 20px;
   color: #000;
@@ -302,7 +302,7 @@
 }
 
 .about__title {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -318,7 +318,7 @@
 }
 
 .about__text {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
@@ -351,7 +351,7 @@
   text-align: center;
 }
 .footer__menu-link-active {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
   text-align: center;
@@ -359,7 +359,7 @@
 }
 
 .footer__menu-link {
-  font-family: var(--font-family);
+  font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
   color: #000;
