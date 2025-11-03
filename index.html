@@ -16,18 +16,18 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item">
-            <a class="header__link_active" href="#">главная</a>
+            <a class="header__link link-active" href="#0">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#">посмотреть лоты</a>
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link" href="#">об аукционе</a>
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
       <!-- логотип -->
-      <a class="header__logo" href="#">
+      <a class="header__logo">
         <img
           src="./images/logo-black.svg"
           alt="Логотип Оно тебе надо"
@@ -52,22 +52,20 @@
         <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="aligned-text aligned-text_left">
-            ОН<span class="no-letter-spacing">О</span>
+            он<span class="no-letter-spacing">о</span>
           </span>
           <span class="aligned-text aligned-text_center">
-            ТЕБ<span class="no-letter-spacing">Е</span>
+            теб<span class="no-letter-spacing">е</span>
           </span>
           <span class="aligned-text aligned-text_right">
-            НАД<span class="no-letter-spacing">О</span>
+            над<span class="no-letter-spacing">о</span>
           </span>
         </h1>
-        <div class="description">
-          <p class="description__text">
+        <div class="cover__description">
+          <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="description__button" type="button">
-            Сделать ставку
-          </button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
       <!-- сексия с лотами -->
@@ -76,10 +74,10 @@
         <ul class="lots__card-list">
           <!-- карточка №1 -->
           <li class="lots__card-list-item">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <div class="card_item">
+                <div class="card__content">
                   <h3 class="card__title">
                     Фильм режиссёра, который бросил киношколу
                   </h3>
@@ -94,10 +92,10 @@
           </li>
           <!-- карточка №2 -->
           <li class="lots__card-list-item">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <div class="card_item">
+                <div class="card__content">
                   <h3 class="card__title">
                     Книга, где описан один скучный день из жизни рекламного
                     агента
@@ -116,10 +114,10 @@
           </li>
           <!-- карточка №3 -->
           <li class="lots__card-list-item">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <div class="card_item">
+                <div class="card__content">
                   <h3 class="card__title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
                   </h3>
@@ -134,7 +132,7 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link" href="#"> посмотреть больше </a>
+        <a class="lots__look-more-link" href="#0"> посмотреть больше </a>
       </section>
       <!-- секция об аукционе -->
       <section class="about">
@@ -147,7 +145,7 @@
             />
           </div>
         </div>
-        <div class="about__column">
+        <article class="about__column">
           <div class="about__content">
             <h2 class="about__title">Об аукционе</h2>
             <div class="about__text-group">
@@ -169,7 +167,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </article>
       </section>
     </main>
 
@@ -185,58 +183,66 @@
         </p>
       </address>
       <!-- навигация -->
-      <nav class="footer__menu">
+      <nav class="footer__menu" aria-label="Мы в соцсетях">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link-active" href="#">главная</a>
+            <a class="footer__menu-link link-active" href="#0">главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#">посмотреть лоты</a>
+            <a class="footer__menu-link" href="#0">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#">об аукционе</a>
+            <a class="footer__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
       <!-- соц сети -->
-      <div class="footer__social">
-        <a
-          class="footer__social-link"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="./images/yt.svg"
-            alt="Иконка YouTube"
-            class="footer__social-icon"
-          />
-        </a>
-        <a
-          class="footer__social-link"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="./images/vk.svg"
-            alt="Иконка ВКонтакте"
-            class="footer__social-icon"
-          />
-        </a>
-        <a
-          class="footer__social-link"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="./images/pinterest.svg"
-            alt="Иконка Pinterest"
-            class="footer__social-icon"
-          />
-        </a>
-      </div>
+      <nav class="footer__social">
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="#0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./images/yt.svg"
+                alt="Иконка YouTube"
+                class="footer__social-icon"
+              />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="#0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./images/vk.svg"
+                alt="Иконка ВКонтакте"
+                class="footer__social-icon"
+              />
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              class="footer__social-link"
+              href="#0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./images/pinterest.svg"
+                alt="Иконка Pinterest"
+                class="footer__social-icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
